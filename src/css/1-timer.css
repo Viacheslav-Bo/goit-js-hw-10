@@ -1,0 +1,78 @@
+.timer-container .field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.timer-container .timer {
+    display: flex;
+    gap: 24px;
+
+}
+
+.timer-container .value {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0.04em;
+}
+
+.timer-container .label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.timer-container input {
+    width: 266px;
+    height: 34px;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    margin-bottom: 32px;
+    outline: none;
+    border: 1px solid #989898;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+
+.timer-container input:hover {
+    border: 1px solid #000000;
+}
+
+.timer-container input:focus {
+    border: 1px solid #4E75FF;
+}
+
+
+
+.timer-container button {
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 75px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #989898;
+    border: none;
+    margin-left: 8px;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.timer-container button:hover,
+.timer-container button:focus {
+    background-color: #6c8cff;
+    color: #fff;
+}
+
+.container {
+    padding-top: 40px;
+
+}

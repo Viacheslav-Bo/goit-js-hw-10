@@ -1,0 +1,78 @@
+.snackbar-container label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    display: flex;
+    flex-direction: column;
+}
+
+.snackbar-container input {
+    width: 352px;
+    height: 34px;
+
+}
+
+.form {
+    width: 360px;
+}
+
+
+fieldset {
+    width: 356px;
+    height: 78px;
+    padding: 0;
+    margin: 0;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+fieldset legend {
+    margin-left: 28px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.snackbar-container form fieldset label {
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.snackbar-container form fieldset input {
+    width: 19px;
+    height: 19px;
+}
+
+.snackbar-container form fieldset input[type="radio"] {
+    accent-color: #4E75FF;
+
+}
+
+.snackbar-container button {
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 360px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background-color: #4e75ff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-top: 24px;
+}
+
+.snackbar-container button:hover {
+    background-color: #6c8cff;
+    ;
+}
