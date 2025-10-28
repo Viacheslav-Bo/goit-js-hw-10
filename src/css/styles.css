@@ -5,8 +5,8 @@
   |============================
 */
 /* Common styles */
-@import url('./reset.css');
-@import url('./base.css');
-@import url('./container.css');
-@import url('./1-timer.css');
-@import url('./2-snackbar.css');
+@import url('/reset.css');
+@import url('/base.css');
+@import url('/container.css');
+@import url('/1-timer.css');
+@import url('/2-snackbar.css');
