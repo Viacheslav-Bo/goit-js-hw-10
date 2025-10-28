@@ -25,7 +25,7 @@
 }
 
 .timer-container input {
-    width: 266px;
+    width: 250px;
     height: 34px;
     border-radius: 4px;
     font-weight: 400;
@@ -36,6 +36,7 @@
     outline: none;
     border: 1px solid #989898;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding-left: 16px;
 }
 
 
@@ -48,6 +49,12 @@
     border: 1px solid #4E75FF;
 }
 
+.timer-container input:disabled {
+    background: #f5f5f5;
+    border: 1px solid #cfcfcf;
+    color: #989898;
+    cursor: not-allowed;
+}
 
 
 .timer-container button {
@@ -59,7 +66,8 @@
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.04em;
-    color: #989898;
+    color: #fff;
+    background-color: #4e75ff;
     border: none;
     margin-left: 8px;
     cursor: pointer;
@@ -70,6 +78,12 @@
 .timer-container button:focus {
     background-color: #6c8cff;
     color: #fff;
+}
+
+.timer-container button:disabled {
+    background: #cfcfcf;
+    color: #989898;
+    cursor: not-allowed;
 }
 
 .container {
