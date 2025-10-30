@@ -76,3 +76,9 @@ fieldset legend {
     background-color: #6c8cff;
     ;
 }
+
+.snackbar-container button:disabled {
+    background-color: #cfcfcf;
+    color: #7a7a7a;
+    cursor: not-allowed;
+}
